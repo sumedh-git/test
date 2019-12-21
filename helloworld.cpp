@@ -8,6 +8,11 @@ int subtract(int a,int b)
 {
   return a-b;
 }
+
+int mul(int a, int b){
+  return a*b; 
+}
+
 int main()
 {
   int a,b,sum,difference;
@@ -17,5 +22,7 @@ int main()
   cout<<"Sum = "<<sum;
   difference=subtract(a,b);
   cout<<"\nDifference = "<<difference;
+  multiply = mul(a,b);
+  cout<<"\nMultiplication:"<<multiply;
   return 0;
 }
