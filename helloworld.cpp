@@ -15,7 +15,7 @@ int mul(int a, int b){
 
 int main()
 {
-  int a,b,sum,difference;
+  int a,b,sum,difference,multiply;
   cout<<"Enter 2 nos.";
   cin>>a>>b;
   sum=add(a,b);
