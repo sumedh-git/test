@@ -27,7 +27,7 @@ int main()
   cout<<"\nDifference = "<<difference;
   multiply = mul(a,b);
   cout<<"\nMultiplication:"<<multiply;
-  division=div(a,b)
-  cout<<"\n\nDivision:" <<division;  
+  division=div(a,b);
+  cout<<"\n\nDivision:"<<division;  
   return 0;
 }
