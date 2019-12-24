@@ -16,9 +16,13 @@ int div(int a,int b)
 {
 return a/b;
 }
+int mod(int a,int b)
+{
+return a%b;
+}
 int main()
 {
-  int a,b,sum,difference,multiply,division;
+  int a,b,sum,difference,multiply,division,modulus;
   cout<<"Enter 2 nos.";
   cin>>a>>b;
   sum=add(a,b);
@@ -28,6 +32,8 @@ int main()
   multiply = mul(a,b);
   cout<<"\nMultiplication:"<<multiply;
   division=div(a,b)
-  cout<<"\n\nDivision:" <<division;  
+  cout<<"\n\nDivision:" <<division;
+  modulus=mod(a,b)
+  cout<<"\n\nModulo:" <<modulus;
   return 0;
 }
